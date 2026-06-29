@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install -r requirements.txt
+      - run: pip install -r ventas_api/requirements.txt
 
       - run: pytest
 
